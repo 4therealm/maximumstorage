@@ -1,15 +1,14 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-
-import { useState, useEffect } from 'react';
 import FileUpload from './FileUpload';
-
 
 function App() {
   return (
     <div className="App">
+      <header className="App-header">
         <h1>Maximum Storage</h1>
-        <main>
+      </header>
+      <main>
         <FileUpload />
       </main>
     </div>
@@ -17,3 +16,4 @@ function App() {
 }
 
 export default App;
+
