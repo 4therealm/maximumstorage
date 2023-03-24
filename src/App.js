@@ -1,16 +1,16 @@
 import React from 'react';
 import './App.css';
 import FileUpload from './FileUpload';
+import FileList from './FileList';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Maximum Storage</h1>
-      </header>
-      <main>
+    
+    <h1>File Upload</h1>
         <FileUpload />
-      </main>
+        <FileList />
+    
     </div>
   );
 }
